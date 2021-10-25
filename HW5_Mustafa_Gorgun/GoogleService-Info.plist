@@ -3,21 +3,21 @@
 <plist version="1.0">
 <dict>
 	<key>CLIENT_ID</key>
-	<string>646098376012-fqkb9m022occgbvkinv5ion3go55ms8k.apps.googleusercontent.com</string>
+	<string>682403696028-v71f6rlogmdgdnn4kucf2mu2kuu4jbul.apps.googleusercontent.com</string>
 	<key>REVERSED_CLIENT_ID</key>
-	<string>com.googleusercontent.apps.646098376012-fqkb9m022occgbvkinv5ion3go55ms8k</string>
+	<string>com.googleusercontent.apps.682403696028-v71f6rlogmdgdnn4kucf2mu2kuu4jbul</string>
 	<key>API_KEY</key>
-	<string>AIzaSyAzphwQWub6Is5qhUlFzIyNTAK9Xy9geiU</string>
+	<string>AIzaSyDVULg48jYqqYWshd11IoJdp2Q2bD4k9ZE</string>
 	<key>GCM_SENDER_ID</key>
-	<string>646098376012</string>
+	<string>682403696028</string>
 	<key>PLIST_VERSION</key>
 	<string>1</string>
 	<key>BUNDLE_ID</key>
-	<string>tukre.WeatherApplication</string>
+	<string>com.MustafaGrgun.HW5-Mustafa-Gorgun</string>
 	<key>PROJECT_ID</key>
-	<string>weatherapplication-fdcee</string>
+	<string>hw5mustafagorgun</string>
 	<key>STORAGE_BUCKET</key>
-	<string>weatherapplication-fdcee.appspot.com</string>
+	<string>hw5mustafagorgun.appspot.com</string>
 	<key>IS_ADS_ENABLED</key>
 	<false></false>
 	<key>IS_ANALYTICS_ENABLED</key>
@@ -29,6 +29,6 @@
 	<key>IS_SIGNIN_ENABLED</key>
 	<true></true>
 	<key>GOOGLE_APP_ID</key>
-	<string>1:646098376012:ios:ccfacf651e234dd9a06be9</string>
+	<string>1:682403696028:ios:8920246b93077d4a2f8c59</string>
 </dict>
 </plist>
