@@ -66,7 +66,6 @@
 		2B7E763F27266BA70053B1FE /* MainFont.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E75E027266BA60053B1FE /* MainFont.swift */; };
 		2B7E764027266BA70053B1FE /* TutorialViewInfoStore.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E75E227266BA60053B1FE /* TutorialViewInfoStore.swift */; };
 		2B7E764127266BA70053B1FE /* UserDefaultsWrapperHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E75E327266BA60053B1FE /* UserDefaultsWrapperHelper.swift */; };
-		2B7E764227266BA70053B1FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B7E75E427266BA60053B1FE /* GoogleService-Info.plist */; };
 		2B7E764327266BA70053B1FE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2B7E75E527266BA60053B1FE /* LaunchScreen.storyboard */; };
 		2B7E764427266BA70053B1FE /* ActionButtonType.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E75E827266BA60053B1FE /* ActionButtonType.swift */; };
 		2B7E764527266BA70053B1FE /* ActionButtonData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E75E927266BA60053B1FE /* ActionButtonData.swift */; };
@@ -93,6 +92,9 @@
 		2B7E765A27266BA70053B1FE /* PageViewComponent.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E760827266BA60053B1FE /* PageViewComponent.swift */; };
 		2B7E765B27266BA70053B1FE /* PageViewComponentData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 2B7E760927266BA60053B1FE /* PageViewComponentData.swift */; };
 		2B7E765E27266E440053B1FE /* DefaultNetworkOperationPackage in Frameworks */ = {isa = PBXBuildFile; productRef = 2B7E765D27266E440053B1FE /* DefaultNetworkOperationPackage */; };
+		2B7E7661272674860053B1FE /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 2B7E7660272674860053B1FE /* GoogleService-Info.plist */; };
+		2B7E7664272675A90053B1FE /* FirebaseAnalytics in Frameworks */ = {isa = PBXBuildFile; productRef = 2B7E7663272675A90053B1FE /* FirebaseAnalytics */; };
+		2B7E7666272675A90053B1FE /* FirebaseAuth in Frameworks */ = {isa = PBXBuildFile; productRef = 2B7E7665272675A90053B1FE /* FirebaseAuth */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -175,7 +177,6 @@
 		2B7E75E027266BA60053B1FE /* MainFont.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainFont.swift; sourceTree = "<group>"; };
 		2B7E75E227266BA60053B1FE /* TutorialViewInfoStore.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TutorialViewInfoStore.swift; sourceTree = "<group>"; };
 		2B7E75E327266BA60053B1FE /* UserDefaultsWrapperHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = UserDefaultsWrapperHelper.swift; sourceTree = "<group>"; };
-		2B7E75E427266BA60053B1FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 		2B7E75E527266BA60053B1FE /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2B7E75E827266BA60053B1FE /* ActionButtonType.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButtonType.swift; sourceTree = "<group>"; };
 		2B7E75E927266BA60053B1FE /* ActionButtonData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ActionButtonData.swift; sourceTree = "<group>"; };
@@ -201,6 +202,7 @@
 		2B7E760627266BA60053B1FE /* SampleTest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SampleTest.swift; sourceTree = "<group>"; };
 		2B7E760827266BA60053B1FE /* PageViewComponent.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewComponent.swift; sourceTree = "<group>"; };
 		2B7E760927266BA60053B1FE /* PageViewComponentData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = PageViewComponentData.swift; sourceTree = "<group>"; };
+		2B7E7660272674860053B1FE /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -208,6 +210,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				2B7E7664272675A90053B1FE /* FirebaseAnalytics in Frameworks */,
+				2B7E7666272675A90053B1FE /* FirebaseAuth in Frameworks */,
 				2B7E765E27266E440053B1FE /* DefaultNetworkOperationPackage in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -252,11 +256,11 @@
 		2B7E7566272669EF0053B1FE /* HW5_Mustafa_Gorgun */ = {
 			isa = PBXGroup;
 			children = (
+				2B7E7660272674860053B1FE /* GoogleService-Info.plist */,
 				2B7E75C527266BA50053B1FE /* AppDelegate.swift */,
 				2B7E75BE27266BA50053B1FE /* Assets.xcassets */,
 				2B7E75B527266BA50053B1FE /* BaseComponents */,
 				2B7E75E627266BA60053B1FE /* Components */,
-				2B7E75E427266BA60053B1FE /* GoogleService-Info.plist */,
 				2B7E75C427266BA50053B1FE /* Info.plist */,
 				2B7E75E527266BA60053B1FE /* LaunchScreen.storyboard */,
 				2B7E759827266BA40053B1FE /* Managers */,
@@ -621,6 +625,8 @@
 			name = HW5_Mustafa_Gorgun;
 			packageProductDependencies = (
 				2B7E765D27266E440053B1FE /* DefaultNetworkOperationPackage */,
+				2B7E7663272675A90053B1FE /* FirebaseAnalytics */,
+				2B7E7665272675A90053B1FE /* FirebaseAuth */,
 			);
 			productName = HW5_Mustafa_Gorgun;
 			productReference = 2B7E7564272669EF0053B1FE /* HW5_Mustafa_Gorgun.app */;
@@ -697,6 +703,7 @@
 			mainGroup = 2B7E755B272669EF0053B1FE;
 			packageReferences = (
 				2B7E765C27266E440053B1FE /* XCRemoteSwiftPackageReference "DefaultNetworkOperationPackage" */,
+				2B7E7662272675A90053B1FE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */,
 			);
 			productRefGroup = 2B7E7565272669EF0053B1FE /* Products */;
 			projectDirPath = "";
@@ -724,9 +731,9 @@
 				2B7E764327266BA70053B1FE /* LaunchScreen.storyboard in Resources */,
 				2B7E763427266BA60053B1FE /* Roboto-Regular.ttf in Resources */,
 				2B7E763627266BA70053B1FE /* Roboto-ThinItalic.ttf in Resources */,
-				2B7E764227266BA70053B1FE /* GoogleService-Info.plist in Resources */,
 				2B7E763827266BA70053B1FE /* Roboto-LightItalic.ttf in Resources */,
 				2B7E763B27266BA70053B1FE /* Roboto-BlackItalic.ttf in Resources */,
+				2B7E7661272674860053B1FE /* GoogleService-Info.plist in Resources */,
 				2B7E763327266BA60053B1FE /* Roboto-Light.ttf in Resources */,
 				2B7E763927266BA70053B1FE /* Roboto-Italic.ttf in Resources */,
 				2B7E763527266BA70053B1FE /* Roboto-MediumItalic.ttf in Resources */,
@@ -1179,6 +1186,14 @@
 				kind = branch;
 			};
 		};
+		2B7E7662272675A90053B1FE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/firebase/firebase-ios-sdk.git";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 8.0.0;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -1186,6 +1201,16 @@
 			isa = XCSwiftPackageProductDependency;
 			package = 2B7E765C27266E440053B1FE /* XCRemoteSwiftPackageReference "DefaultNetworkOperationPackage" */;
 			productName = DefaultNetworkOperationPackage;
+		};
+		2B7E7663272675A90053B1FE /* FirebaseAnalytics */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B7E7662272675A90053B1FE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAnalytics;
+		};
+		2B7E7665272675A90053B1FE /* FirebaseAuth */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = 2B7E7662272675A90053B1FE /* XCRemoteSwiftPackageReference "firebase-ios-sdk" */;
+			productName = FirebaseAuth;
 		};
 /* End XCSwiftPackageProductDependency section */
 
